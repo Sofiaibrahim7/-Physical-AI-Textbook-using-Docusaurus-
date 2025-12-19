@@ -1,0 +1,23 @@
+{
+  "name": "physical-ai-docusaurus",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "docusaurus": "docusaurus",
+    "start": "docusaurus start",
+    "build": "docusaurus build",
+    "swizzle": "docusaurus swizzle",
+    "deploy": "docusaurus deploy",
+    "clear": "docusaurus clear",
+    "serve": "docusaurus serve"
+  },
+  "dependencies": {
+    "@docusaurus/core": "latest",
+    "@docusaurus/preset-classic": "latest",
+    "react": "^18",
+    "react-dom": "^18"
+  },
+  "devDependencies": {
+    "@docusaurus/module-type-aliases": "latest"
+  }
+}
